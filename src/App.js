@@ -1,5 +1,6 @@
 import { Chronometre } from './components/chronometre'
-import { Compteur } from "./components/compteur";
+import { Compteur } from "./components/compteur"
+import { ProgressBar } from './components/progressBar';
 
 function App() {
 
@@ -7,8 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <Compteur />
+      <Compteur/>
       <Chronometre/>
+      <ProgressBar/>
     </div>
   );
 }
