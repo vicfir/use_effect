@@ -2,6 +2,7 @@ import { Chronometre } from './components/chronometre';
 import { Compteur } from "./components/compteur";
 import { ProgressBar } from './components/progressBar';
 import { Timer } from './components/timer';
+import { ToDoList } from './components/toDoList';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Chronometre/>
       <ProgressBar/>
       <Timer/>
+      <ToDoList/>
     </div>
   );
 }
